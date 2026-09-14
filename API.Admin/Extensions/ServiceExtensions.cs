@@ -52,6 +52,7 @@ namespace API.Admin.Extensions
             _ = services.AddScoped<DbContextFactory>();
             _ = services.AddScoped<TenantConnectionResolver>();
 
+            var x = configuration.GetConnectionString("DefaultConnection");
             _ = services.AddScoped<MigrationDbContext>((provider) =>
             {
                 return new MigrationDbContext(configuration.GetConnectionString("DefaultConnection"));
@@ -85,24 +86,7 @@ namespace API.Admin.Extensions
                 c.SwaggerDoc("Authentication", new OpenApiInfo { Title = "Authentication" });
                 c.SwaggerDoc("Tenant", new OpenApiInfo { Title = "Tenant" });
                 c.SwaggerDoc("Common", new OpenApiInfo { Title = "Common" });
-                c.SwaggerDoc("AcademicData", new OpenApiInfo { Title = "AcademicData" });
-                c.SwaggerDoc("Enterprise", new OpenApiInfo { Title = "Enterprise" });
-                c.SwaggerDoc("Children", new OpenApiInfo { Title = "Children" });
-                c.SwaggerDoc("Application", new OpenApiInfo { Title = "Application" });
-                c.SwaggerDoc("Payment", new OpenApiInfo { Title = "Payment" });
-                c.SwaggerDoc("Attendance", new OpenApiInfo { Title = "Attendance" });
-                c.SwaggerDoc("Teacher", new OpenApiInfo { Title = "Teacher" });
-                c.SwaggerDoc("DynamicForm", new OpenApiInfo { Title = "DynamicForm" });
-                c.SwaggerDoc("Communication", new OpenApiInfo { Title = "Communication" });
-                c.SwaggerDoc("Event", new OpenApiInfo { Title = "Event" });
-                c.SwaggerDoc("Incident", new OpenApiInfo { Title = "Incident" });
-                c.SwaggerDoc("Birthday", new OpenApiInfo { Title = "Birthday" });
-                c.SwaggerDoc("Curriculum", new OpenApiInfo { Title = "Curriculum" });
-                c.SwaggerDoc("Admission", new OpenApiInfo { Title = "Admission" });
-                c.SwaggerDoc("Activity", new OpenApiInfo { Title = "Activity" });
-                c.SwaggerDoc("Dashboard", new OpenApiInfo { Title = "Dashboard" });
-                c.SwaggerDoc("Assessment", new OpenApiInfo { Title = "Assessment" });
-                c.SwaggerDoc("NewsFeed", new OpenApiInfo { Title = "NewsFeed" });
+              
 
                 c.OperationFilter<SwaggerOperations>();
 
