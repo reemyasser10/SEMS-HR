@@ -46,7 +46,7 @@ namespace WebApp.Auth.Service
             get
             {
                 Dictionary<string, string> translations = _translationCacheService.GetTranslationsAsync().Result;
-                string value = translations.TryGetValue(name, out string? translation) ? translation : name;
+                string value = translations != null ? translations.TryGetValue(name, out string? translation) ? translation : name : name;
                 return new LocalizedString(name, value);
             }
         }

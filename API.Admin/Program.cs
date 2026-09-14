@@ -16,10 +16,7 @@ builder.AddServiceDefaults();
 // Add services to the container.
 builder.Services.AddControllers();
 
-builder.Services.AddSingleton(provider => new MapperConfiguration(cfg =>
-{
-    cfg.AddProfile(new MappingProfile());
-}).CreateMapper());
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
 builder.Services.Configure<List<TenantConfig>>(builder.Configuration.GetSection("Tenants"));

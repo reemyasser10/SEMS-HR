@@ -275,5 +275,61 @@ namespace API.Admin.Controllers
             }
             return emailConfig;
         }
+
+
+
+        protected async Task<Entities.DBModels.Common.Attachment> UploadFileToStorageAsync(IFormFile file, EntityTypeEnum entityType, int entityId = 0, string? description = null)
+        {
+            using (Stream stream = file.OpenReadStream())
+            {
+                return await UploadFileToStorageAsync(stream, file.FileName, file.ContentType, file.Length, entityType, entityId, description);
+            }
+        }
+
+        protected async Task<Entities.DBModels.Common.Attachment> UploadFileToStorageAsync(byte[] fileBytes, string fileName, string contentType, EntityTypeEnum entityType, int entityId = 0, string? description = null)
+        {
+            using (MemoryStream stream = new MemoryStream(fileBytes))
+            {
+                return await UploadFileToStorageAsync(stream, fileName, contentType, fileBytes.Length, entityType, entityId, description);
+            }
+        }
+
+        protected async Task<Entities.DBModels.Common.Attachment> UploadFileToStorageAsync(Stream stream, string fileName, string contentType, long fileSize, EntityTypeEnum entityType, int entityId = 0, string? description = null)
+        {
+            string storageAccount = GetStorageAccount();
+            string containerName = entityType.ToString().ToLower();
+
+            BlobServiceClient blobServiceClient = new BlobServiceClient(storageAccount);
+            BlobContainerClient containerClient = blobServiceClient.GetBlobContainerClient(containerName);
+            await containerClient.CreateIfNotExistsAsync();
+
+            string dateFolder = DateTime.UtcNow.ToString("yyyy/MM/dd");
+            string uniqueFileName = $"{Guid.NewGuid()}_{fileName}";
+            string fullPath = $"{dateFolder}/{uniqueFileName}";
+
+            BlobClient blobClient = containerClient.GetBlobClient(fullPath);
+            await blobClient.UploadAsync(stream, overwrite: true);
+
+            string accountName = storageAccount.Split(';').FirstOrDefault(s => s.Contains("AccountName"))?.Split('=')[1] ?? "";
+            string storagePath = $"https://{accountName}.blob.core.windows.net/";
+
+            var attachment = new Entities.DBModels.Common.Attachment
+            {
+                Fk_Tenant = TenantId,
+                EntityType = entityType,
+                EntityId = entityId,
+                Description = description,
+                FilePath = fullPath,
+                ContainerName = containerName,
+                StoragePath = storagePath,
+                FileName = fileName,
+                FileType = contentType,
+                FileSize = (int)fileSize,
+            };
+
+            await SetAuditFieldsForCreation(attachment);
+            return attachment;
+        }
+
     }
 }
