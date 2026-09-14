@@ -1,0 +1,435 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work\\GitHub\\SEMS-HR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B35C11C5-028A-F072-AE2B-6299C9B0FE30}|src\\HR.Api\\HR.Api.csproj|c:\\work\\github\\sems-hr\\src\\hr.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35C11C5-028A-F072-AE2B-6299C9B0FE30}|src\\HR.Api\\HR.Api.csproj|solutionrelative:src\\hr.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35C11C5-028A-F072-AE2B-6299C9B0FE30}|src\\HR.Api\\HR.Api.csproj|c:\\work\\github\\sems-hr\\src\\hr.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35C11C5-028A-F072-AE2B-6299C9B0FE30}|src\\HR.Api\\HR.Api.csproj|solutionrelative:src\\hr.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0AC650-254C-6BB5-C32E-C71061BE19C8}|src\\HR.Admin\\HR.Admin.csproj|c:\\work\\github\\sems-hr\\src\\hr.admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0AC650-254C-6BB5-C32E-C71061BE19C8}|src\\HR.Admin\\HR.Admin.csproj|solutionrelative:src\\hr.admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|c:\\work\\github\\sems-hr\\src\\hr.infrastructure\\identity\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|solutionrelative:src\\hr.infrastructure\\identity\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2E8F95-0966-4BC0-BCE5-D00030666B4C}|src\\HR.Application\\HR.Application.csproj|c:\\work\\github\\sems-hr\\src\\hr.application\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2E8F95-0966-4BC0-BCE5-D00030666B4C}|src\\HR.Application\\HR.Application.csproj|solutionrelative:src\\hr.application\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35C11C5-028A-F072-AE2B-6299C9B0FE30}|src\\HR.Api\\HR.Api.csproj|c:\\work\\github\\sems-hr\\src\\hr.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B35C11C5-028A-F072-AE2B-6299C9B0FE30}|src\\HR.Api\\HR.Api.csproj|solutionrelative:src\\hr.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35C11C5-028A-F072-AE2B-6299C9B0FE30}|src\\HR.Api\\HR.Api.csproj|c:\\work\\github\\sems-hr\\src\\hr.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B35C11C5-028A-F072-AE2B-6299C9B0FE30}|src\\HR.Api\\HR.Api.csproj|solutionrelative:src\\hr.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|c:\\work\\github\\sems-hr\\src\\hr.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|solutionrelative:src\\hr.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|c:\\work\\github\\sems-hr\\src\\hr.infrastructure\\persistence\\interceptors\\auditableentitysavechangesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|solutionrelative:src\\hr.infrastructure\\persistence\\interceptors\\auditableentitysavechangesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|c:\\work\\github\\sems-hr\\src\\hr.infrastructure\\identity\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|solutionrelative:src\\hr.infrastructure\\identity\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|c:\\work\\github\\sems-hr\\src\\hr.infrastructure\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9DB8-751C-42DE-EA4E-80F1A753688B}|src\\HR.Infrastructure\\HR.Infrastructure.csproj|solutionrelative:src\\hr.infrastructure\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2636EEC-53EB-8554-2A58-3F6EFA2AF586}|src\\HR.Domain\\HR.Domain.csproj|c:\\work\\github\\sems-hr\\src\\hr.domain\\common\\iauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2636EEC-53EB-8554-2A58-3F6EFA2AF586}|src\\HR.Domain\\HR.Domain.csproj|solutionrelative:src\\hr.domain\\common\\iauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2636EEC-53EB-8554-2A58-3F6EFA2AF586}|src\\HR.Domain\\HR.Domain.csproj|c:\\work\\github\\sems-hr\\src\\hr.domain\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2636EEC-53EB-8554-2A58-3F6EFA2AF586}|src\\HR.Domain\\HR.Domain.csproj|solutionrelative:src\\hr.domain\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 50,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:161:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:162:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:160:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:157:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:159:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:158:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Api\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "src\\HR.Api\\Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Api\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "src\\HR.Api\\Controllers\\PermissionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T09:26:52.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Application\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\HR.Application\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Application\\Auth\\AuthService.cs",
+              "RelativeToolTip": "src\\HR.Application\\Auth\\AuthService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwEYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T09:19:59.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\HR.Api\\appsettings.json",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Api\\appsettings.json",
+              "RelativeToolTip": "src\\HR.Api\\appsettings.json",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-14T09:10:09.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\HR.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\HR.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T09:09:46.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Admin\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\HR.Admin\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Admin\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\HR.Admin\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:27:49.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Identity\\JwtService.cs",
+              "RelativeDocumentMoniker": "src\\HR.Infrastructure\\Identity\\JwtService.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Identity\\JwtService.cs",
+              "RelativeToolTip": "src\\HR.Infrastructure\\Identity\\JwtService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:27:00.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\HR.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\HR.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-14T09:10:06.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\HR.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\HR.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:27:13.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuditableEntitySaveChangesInterceptor.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Persistence\\Interceptors\\AuditableEntitySaveChangesInterceptor.cs",
+              "RelativeDocumentMoniker": "src\\HR.Infrastructure\\Persistence\\Interceptors\\AuditableEntitySaveChangesInterceptor.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Persistence\\Interceptors\\AuditableEntitySaveChangesInterceptor.cs",
+              "RelativeToolTip": "src\\HR.Infrastructure\\Persistence\\Interceptors\\AuditableEntitySaveChangesInterceptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:27:09.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Identity\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "src\\HR.Infrastructure\\Identity\\PasswordHasher.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Identity\\PasswordHasher.cs",
+              "RelativeToolTip": "src\\HR.Infrastructure\\Identity\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:27:03.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Identity\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "src\\HR.Infrastructure\\Identity\\JwtSettings.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Infrastructure\\Identity\\JwtSettings.cs",
+              "RelativeToolTip": "src\\HR.Infrastructure\\Identity\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:27:02.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuditableEntity.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Domain\\Common\\IAuditableEntity.cs",
+              "RelativeDocumentMoniker": "src\\HR.Domain\\Common\\IAuditableEntity.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Domain\\Common\\IAuditableEntity.cs",
+              "RelativeToolTip": "src\\HR.Domain\\Common\\IAuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:26:52.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Domain\\Common\\Entity.cs",
+              "RelativeDocumentMoniker": "src\\HR.Domain\\Common\\Entity.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\src\\HR.Domain\\Common\\Entity.cs",
+              "RelativeToolTip": "src\\HR.Domain\\Common\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T15:26:50.014Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

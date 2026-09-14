@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HR.Admin/HR.Admin.csproj" />
+    <Project Path="src/HR.Api/HR.Api.csproj" />
+    <Project Path="src/HR.Application/HR.Application.csproj" />
+    <Project Path="src/HR.Domain/HR.Domain.csproj" />
+    <Project Path="src/HR.Infrastructure/HR.Infrastructure.csproj" />
+  </Folder>
+</Solution>
