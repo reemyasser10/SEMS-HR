@@ -1,0 +1,75 @@
+﻿@model SelectRoleVM
+@{
+    ViewData["Title"] = Localizer["Login Role"];
+    bool flag = true;
+}
+
+<!-- Login -->
+<div class="d-flex col-12 col-lg-4 align-items-center authentication-bg p-sm-12 p-6">
+    <div class="w-px-400 mx-auto mt-12 pt-5">
+        <h4 class="mb-1">@Localizer["Welcome to HR System"]</h4>
+        <p class="mb-6">@Localizer["Please sign-in to your account and start the adventure"],</p>
+
+        <form asp-action="Role" class="mb-6">
+            <input type="hidden" asp-for="Token" />
+
+            <div class="mb-6 position-relative">
+                <input class="form-control ps-7"
+                       asp-for="UserName"
+                       autofocus
+                       placeholder="@Localizer["Enter your email or username"]"
+                       required
+                       disabled />
+                <div class="icon-position">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            @if (Model.IsParent)
+            {
+                <div class="mb-6 position-relative">
+                    <label class="select-style cursor-pointer mt-3">
+                        <div>
+                            <p>@Localizer["Parent"]</p>
+                        </div>
+                        <div class="form-check">
+                            <input asp-for="Role" class="form-check-input" type="radio" value="Parent" checked="@(flag?"true":false)" />
+                        </div>
+                    </label>
+                </div>
+                flag = false;
+            }
+            @if (Model.IsTeacher)
+            {
+                <div class="mb-6 position-relative">
+                    <label class="select-style cursor-pointer mt-3">
+                        <div>
+                            <p>@Localizer["Teacher"]</p>
+                        </div>
+                        <div class="form-check">
+                            <input asp-for="Role" class="form-check-input" type="radio" value="Teacher" checked="@(flag?"true":false)" />
+                        </div>
+                    </label>
+                </div>
+                flag = false;
+            }
+            @if (Model.IsAdmin)
+            {
+                <div class="mb-6 position-relative">
+                    <label class="select-style cursor-pointer mt-3">
+                        <div>
+                            <p>@Localizer["Admin"]</p>
+                        </div>
+                        <div class="form-check">
+                            <input asp-for="Role" class="form-check-input" type="radio" value="Admin" checked="@(flag?"true":false)" />
+                        </div>
+                    </label>
+                </div>
+                flag = false;
+            }
+
+            <button type="submit" class="btn btnn-primary d-grid w-100">@Localizer["Login"]</button>
+        </form>
+    </div>
+</div>
+<!-- /Login -->

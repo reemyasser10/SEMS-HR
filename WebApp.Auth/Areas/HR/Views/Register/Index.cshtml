@@ -1,0 +1,96 @@
+﻿@model UserRegistrationDto
+@{
+    ViewData["Title"] = Localizer["Get Started"];
+}
+<div class="d-flex col-12 col-lg-4 align-items-center authentication-bg p-sm-12 p-6">
+    <div class="w-px-400 mx-auto ">
+        <h4 class="mb-1">@Localizer["Get Started"] </h4>
+        <p class="mb-6">@Localizer["Welcome to HR System  - Let’s get started"] </p>
+
+        <form id="register-form" class="mb-6" asp-action="Register" asp-controller="Register" asp-area="HR" method="post">
+            <div>
+                <div class="mb-6 position-relative">
+                    <input  type="text" required
+                           class="form-control ps-7 validate-name"
+                           asp-for="FullName"
+                           placeholder="@Localizer["Full Name"]" />
+                    <span asp-validation-for="FullName" class=" error-message text-danger"></span>
+                    <div class="icon-position">
+                        <i class="fa-solid fa-user teext-primary"></i>
+                    </div>
+                </div>
+                <div class="mb-6 position-relative">
+                    <input type="email" required
+                           asp-for="UserName" 
+                           class="form-control ps-7 validate-email"
+                           placeholder="@Localizer["Email"]" />
+                    <span asp-validation-for="@Model.UserName" class=" error-message text-danger"></span>
+                    <div class="icon-position">
+                        <i class="fa-solid fa-envelope teext-primary"></i>
+                    </div>
+                    </div>
+                <div class="mb-6 position-relative">
+                    <input type="text"
+                           asp-for="Phone" required
+                           class="form-control ps-7 validate-phone"
+                           placeholder="@Localizer["Phone Number"]" />
+                    <span asp-validation-for="@Model.Phone" class=" error-message text-danger"></span>
+                    <div class="icon-position">
+                        <i class="fa-solid fa-phone teext-primary"></i>
+                    </div>
+                </div>
+                <div class="mb-6 form-password-toggle">
+                    <div class="input-group input-group-merge position-relative">
+                        <input type="password"
+                               class="form-control ps-7 validate-password"
+                               id="password"
+                               asp-for="Password"
+                               placeholder="@Localizer["Password"]"
+                               aria-describedby="password" />
+                        <div class="icon-position-pas">
+                            <i class="fa-solid fa-lock teext-primary"></i>
+                        </div>
+                        <span class="input-group-text cursor-pointer"><i style="font-size: 13px;" class="fa-solid fa-eye teext-primary"></i></span>
+                    </div>
+                    <span asp-validation-for="@Model.Password" class=" error-message  text-danger"></span>
+
+                </div>
+             
+                <div class="mb-6 form-password-toggle">
+                    <div class="input-group input-group-merge position-relative">
+                        <input type="password"
+                               id="confirmPassword"
+                               class="form-control ps-7 validate-confirm-password"
+                               placeholder="@Localizer["Confirm Password"]"
+                               aria-describedby="password" />
+                        <div class="icon-position-pas">
+                            <i class="fa-solid fa-lock teext-primary"></i>
+                        </div>
+                      
+                        <span class="input-group-text cursor-pointer"><i style="font-size: 13px;" class="fa-solid fa-eye teext-primary"></i></span>
+                    </div>
+                    <span class="error-message  text-danger"></span>
+
+
+                </div>
+            </div>
+            <button id="submitBtn" type="submit" class="btn btnn-primary d-grid w-100"> @Localizer["Create Account"]</button>
+        </form>
+        @await Html.PartialAsync("_OtpModal")
+
+        <p class="text-center mt-5">
+            <span>@Localizer["Have an account ?"]</span>
+            <a asp-action="Index" asp-controller="Login">
+                <span class="teext-primary">@Localizer["Login"]</span>
+            </a>
+        </p>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="/_content/sharedui/assets/js/client-side-validation.js"></script>
+    <script src="~/assets/js/pages/otp.js"></script>
+    <script src="~/assets/js/pages/register-hr.js"></script>
+  
+    
+}

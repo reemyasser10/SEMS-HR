@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #0c8278;
+    --primary-dark: #064c47;
+    /* --primary-light: #184f59;
+    --primary-text: #0b353d;
+    --primary-bg-light: rgba(8, 44, 51, .12);
+    --primary-border: #468996;
+    --secondary-color: #eee;
+    --shadow-color: rgba(167, 167, 167, .67);
+    --shadow-light: rgba(219, 220, 221, 1);  */
+}
+
+
+.btnn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: transparent !important;
+    color: #fff !important;
+    transition: all .2s ease-in-out;
+    border-radius: 30px;
+}
+
+    .btnn-primary:hover {
+        color: #fff !important;
+        background-color: var(--primary-dark) !important;
+    }
+
+.teext-primary {
+    color: var(--primary-color) !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 2px 6px 0 rgba(115, 103, 240, 0.3);
+}
+
+
+.bs-stepper .step.active .bs-stepper-circle {
+    background-color: var(--primary-color) !important;
+    color: #fff;
+    box-shadow: 0 0.125rem 0.375rem 0 rgba(115, 103, 240, 0.3);
+}
+
+.arrow-active {
+    background-color: white;
+    color: var(--primary-color) !important;
+}
+
+.arrow-not-active {
+    background-color: var(--primary-color) !important;
+    color: white;
+}
+
+#template-customizer .template-customizer-open-btn {
+    background-color: var(--primary-color) !important;
+    box-shadow: 0px 2px 6px 0px rgba(115, 103, 240, 0.3);
+    color: #fff !important;
+    text-align: center;
+}
+
+.custom-option.checked {
+    border: 2px solid var(--primary-color) !important;
+}
+
+.bg-label-primary {
+    background-color: #e9e7fd !important;
+    color: var(--primary-color) !important;
+}
+
+.swal2-confirm {
+    background-color: var(--primary-color) !important;
+}
+
+.row .form-control:focus, .row .form-select:focus {
+    border-color: var(--primary-color)  !important;
+}
+
+.row .input-group:focus-within .form-control, .row .input-group:focus-within .input-group-text {
+     border-color: var(--primary-color)  !important;
+}

@@ -1,9 +1,28 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/HR.Admin/HR.Admin.csproj" />
-    <Project Path="src/HR.Api/HR.Api.csproj" />
-    <Project Path="src/HR.Application/HR.Application.csproj" />
-    <Project Path="src/HR.Domain/HR.Domain.csproj" />
-    <Project Path="src/HR.Infrastructure/HR.Infrastructure.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
+    <Project Path="API.Admin/API.Admin.csproj" Id="f96bcc8a-019f-4e17-b171-3f42d432cbd5" />
   </Folder>
+  <Folder Name="/src/ApiHub/">
+    <Project Path="ApiHub.Services/ApiHub.Services.csproj" Id="7c3a98b5-ee3f-4e85-8461-ff86b8a1718e" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="Entities/Entities.csproj" Id="be329815-7af3-439f-84fc-34801847f866" />
+    <Project Path="Utilities/Utilities.csproj" Id="a30b589e-2cb1-4c9c-b39d-03b59ce037c9" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="Data/Data.csproj" Id="b344bd17-1527-4af7-9cd2-ade281e8b89c" />
+    <Project Path="Identity/Identity.csproj" Id="64ba0796-6107-4bb0-b971-cc1fd8dc2b06" />
+    <Project Path="Repositories/Repositories.csproj" Id="fb608381-1ab6-4335-9b94-1c5432d3e735" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="Shared.DTOs/Shared.DTOs.csproj" Id="9719b136-902f-466b-b0ef-ab149f8f4b03" />
+    <Project Path="Shared.VMs/Shared.VMs.csproj" Id="4b3e901a-020e-4a26-8f32-8e530d595343" />
+  </Folder>
+  <Folder Name="/src/WebApp/">
+    <Project Path="WebApp.Auth/WebApp.Auth.csproj" Id="c9667f55-29b8-4670-8b69-41284686dbb7" />
+  </Folder>
+  <Project Path="SEMS-HR.AppHost/SEMS-HR.AppHost.csproj" Id="a0483c95-f840-4c2b-ad4a-8a1719245cbd" />
+  <Project Path="SEMS-HR.ServiceDefaults/SEMS-HR.ServiceDefaults.csproj" Id="11920c15-c333-49f2-87d0-2434383c474c" />
+  <Project Path="SharedUI/SharedUI.csproj" Id="e8357546-e6cf-4327-918f-bdc54304dd86" />
 </Solution>

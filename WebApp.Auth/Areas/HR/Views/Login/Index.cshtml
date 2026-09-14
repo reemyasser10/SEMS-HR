@@ -1,0 +1,38 @@
+﻿@model CheckUserVM
+@{
+    ViewData["Title"] = Localizer["Login"];
+}
+
+<!-- Login -->
+<div class="d-flex col-12 col-lg-4 align-items-center authentication-bg p-sm-12 p-6">
+    <div class="w-px-400 mx-auto mt-12 pt-5">
+        <h4 class="mb-1">@Localizer["Welcome to HR System"]!</h4>
+        <p class="mb-6">@Localizer["Please sign-in to your account and start the adventure"],</p>
+
+        <form asp-action="Login" class="mb-6">
+            <div class="mb-6 position-relative">
+                <input class="form-control ps-7 validate-email"
+                       asp-for="UserName" 
+                       autofocus
+                       placeholder="@Localizer["Enter your email"]"
+                       required />
+                <span asp-validation-for="UserName" class="text-danger error-message">@ViewBag.Error</span>
+                <div class="icon-position">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                
+            </div>
+            <button type="submit" class="btn btnn-primary d-grid w-100">@Localizer["Next"]</button>
+        </form>
+        <p class="text-center mt-5">
+            <span>@Localizer["New on our platform"]?</span>
+            <a asp-area="HR" asp-controller="Register" asp-action="Index">
+                <span class="teext-primary">@Localizer["Create an account"]</span>
+            </a>
+        </p>
+    </div>
+</div>
+<!-- /Login -->
+@section Scripts {
+    <script src="/_content/sharedui/assets/js/client-side-validation.js"></script>
+}

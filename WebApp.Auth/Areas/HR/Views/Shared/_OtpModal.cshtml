@@ -1,0 +1,43 @@
+﻿
+<div class="modal fade" id="otpModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="w-100 text-center">
+                    <img src="~/assets/img/mighty-img/OTP 1.png" alt="OTP" />
+                    <h4 class="text-primary">@Localizer["Verify Your Account"]</h4>
+                    <p>
+                        @Localizer["We have sent a 6-digit verification code to your email address [****@mail.com]. Please enter the code to complete your reset."]
+                    </p>
+                </div>
+
+                <div class="otp-container">
+                    @for (int i = 0; i < 6; i++)
+                    {
+                        <input type="text" class="otp-input" maxlength="1" />
+                    }
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="verifyOtpBtn" type="button" class="btn btnn-primary w-100">
+                    @Localizer["Verify"]
+                </button>
+            </div>
+
+            <p class="text-center">
+                <span>@Localizer["Didn't receive the code?"] </span>
+                <a id="resendOtpBtn" style="cursor: pointer;">
+                    <span class="text-primary">@Localizer["Resend OTP"]</span>
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+

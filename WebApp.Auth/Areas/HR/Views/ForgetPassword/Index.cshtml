@@ -1,0 +1,34 @@
+﻿@model ForgetPasswordDto
+@{
+    ViewData["Title"] = Localizer["Forget Password"];
+}
+
+<!-- ForgetPassword -->
+<div class="d-flex col-12 col-lg-4 align-items-center authentication-bg p-sm-12 p-6">
+    <div class="w-px-400 mx-auto mt-12 pt-5">
+        <h4 class="mb-1">@Localizer["Welcome to HR System"]!</h4>
+        <p class="mb-6">@Localizer["Please enter your email address so we can send you the code."]</p>
+
+        <form class="mb-6">
+            <div class="mb-6 position-relative">
+                <input id="UserName" class="form-control ps-7"
+                       asp-for="UserName"
+                       autofocus
+                       placeholder="@Localizer["Enter your email or username"]"
+                       required />
+                <div class="icon-position">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <span asp-validation-for="UserName" class="text-danger">@ViewBag.Error</span>
+            </div>
+            <button type="submit" class="btn btnn-primary d-grid w-100">@Localizer["Send Code"]</button>
+        </form>
+
+    </div>
+</div>
+
+@await Html.PartialAsync("_OtpModal")
+@section Scripts {
+    <script src="~/assets/js/pages/otp.js"></script>
+    <script src="~/assets/js/pages/forgetPassword.js"></script>
+}

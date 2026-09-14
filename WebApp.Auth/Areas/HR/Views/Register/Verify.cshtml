@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = Localizer["Verify Account"];
+}
+<div class="d-flex col-12 col-lg-4 align-items-center authentication-bg p-sm-12 p-6">
+    <div class="w-px-400 mx-auto ">
+        <h4 class="mb-1">@Localizer["Verify Your Account"]</h4>
+        <p class="mb-6">@Localizer["Please enter the 6-digit verification code sent to your email to verify and activate your account:"] <br/><strong class="text-primary">@ViewBag.Email</strong></p>
+
+        <input type="hidden" id="UserName" value="@ViewBag.Email" />
+
+        <div class="text-center mt-4">
+            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#otpModal">
+                <i class="fa-solid fa-key me-2"></i> @Localizer["Enter Verification Code"]
+            </button>
+        </div>
+
+        @await Html.PartialAsync("_OtpModal")
+
+        <p class="text-center mt-5">
+            <span>@Localizer["Back to"]</span>
+            <a asp-action="Index" asp-controller="Login">
+                <span class="teext-primary">@Localizer["Login"]</span>
+            </a>
+        </p>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/assets/js/pages/otp.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Automatically open the OTP modal on page load
+            $('#otpModal').modal('show');
+
+            $("#verifyOtpBtn").on('click', function () {
+                verifyOtpAndRedirect(() => '/Mighty');
+            });
+
+            $("#resendOtpBtn").on('click', function (e) {
+                e.preventDefault();
+                resendOtp();
+            });
+        });
+    </script>
+}
