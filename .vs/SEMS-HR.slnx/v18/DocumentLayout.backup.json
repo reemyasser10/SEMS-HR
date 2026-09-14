@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Work\\GitHub\\SEMS-HR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|c:\\work\\github\\sems-hr\\api.admin\\api.admin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|solutionrelative:api.admin\\api.admin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|c:\\work\\github\\sems-hr\\api.admin\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|solutionrelative:api.admin\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|c:\\work\\github\\sems-hr\\api.admin\\extensions\\pipelineextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|solutionrelative:api.admin\\extensions\\pipelineextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|c:\\work\\github\\sems-hr\\api.admin\\api.admin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|solutionrelative:api.admin\\api.admin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|c:\\work\\github\\sems-hr\\api.admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -278,10 +282,6 @@
       "RelativeMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|solutionrelative:api.admin\\localization\\localizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|c:\\work\\github\\sems-hr\\api.admin\\extensions\\pipelineextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|solutionrelative:api.admin\\extensions\\pipelineextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|c:\\work\\github\\sems-hr\\api.admin\\exceptionhandler\\exceptionutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F96BCC8A-019F-4E17-B171-3F42D432CBD5}|API.Admin\\API.Admin.csproj|solutionrelative:api.admin\\exceptionhandler\\exceptionutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -305,7 +305,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 50,
+          "SelectedChildIndex": 53,
           "Children": [
             {
               "$type": "Bookmark",
@@ -509,19 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "API.Admin",
-              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\API.Admin.csproj",
-              "RelativeDocumentMoniker": "API.Admin\\API.Admin.csproj",
-              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\API.Admin.csproj",
-              "RelativeToolTip": "API.Admin\\API.Admin.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-14T22:32:24.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Program.cs",
               "RelativeDocumentMoniker": "API.Admin\\Program.cs",
@@ -534,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\SEMS-HR.AppHost\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "SEMS-HR.AppHost\\Properties\\launchSettings.json",
@@ -546,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\SEMS-HR.AppHost\\Program.cs",
               "RelativeDocumentMoniker": "SEMS-HR.AppHost\\Program.cs",
@@ -559,20 +547,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "API.Admin\\Extensions\\ServiceExtensions.cs",
               "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Extensions\\ServiceExtensions.cs",
               "RelativeToolTip": "API.Admin\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAmwG8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv1sAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T19:47:43.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\appsettings.Development.json",
               "RelativeDocumentMoniker": "API.Admin\\appsettings.Development.json",
@@ -585,7 +573,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "PipelineExtensions.cs",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Extensions\\PipelineExtensions.cs",
+              "RelativeDocumentMoniker": "API.Admin\\Extensions\\PipelineExtensions.cs",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Extensions\\PipelineExtensions.cs",
+              "RelativeToolTip": "API.Admin\\Extensions\\PipelineExtensions.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T19:47:36.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "API.Admin",
+              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\API.Admin.csproj",
+              "RelativeDocumentMoniker": "API.Admin\\API.Admin.csproj",
+              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\API.Admin.csproj",
+              "RelativeToolTip": "API.Admin\\API.Admin.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-14T22:32:24.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\appsettings.json",
               "RelativeDocumentMoniker": "API.Admin\\appsettings.json",
@@ -598,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SEMS-HR.AppHost.csproj",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\SEMS-HR.AppHost\\SEMS-HR.AppHost.csproj",
               "RelativeDocumentMoniker": "SEMS-HR.AppHost\\SEMS-HR.AppHost.csproj",
@@ -610,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.400\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -622,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SharedUI.csproj",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\SharedUI\\SharedUI.csproj",
               "RelativeDocumentMoniker": "SharedUI\\SharedUI.csproj",
@@ -634,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SharedUI",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\SharedUI\\SharedUI.csproj",
               "RelativeDocumentMoniker": "SharedUI\\SharedUI.csproj",
@@ -645,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Program.cs",
               "RelativeDocumentMoniker": "WebApp.Auth\\Program.cs",
@@ -657,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ForgetPasswordController.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Controllers\\ForgetPasswordController.cs",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Controllers\\ForgetPasswordController.cs",
@@ -669,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Controllers\\LoginController.cs",
@@ -681,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Controllers\\RegisterController.cs",
@@ -693,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApp.Auth\\appsettings.Development.json",
@@ -705,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\appsettings.json",
               "RelativeDocumentMoniker": "WebApp.Auth\\appsettings.json",
@@ -717,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Views\\Shared\\Error.cshtml",
@@ -729,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "HRTranslationService.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Service\\HRTranslationService.cs",
               "RelativeDocumentMoniker": "WebApp.Auth\\Service\\HRTranslationService.cs",
@@ -741,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebApp.Auth\\Models\\ErrorViewModel.cs",
@@ -753,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ExtendControllerBase.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Controllers\\ExtendControllerBase.cs",
               "RelativeDocumentMoniker": "WebApp.Auth\\Controllers\\ExtendControllerBase.cs",
@@ -765,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\_ViewImports.cshtml",
@@ -777,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "_OtpModal.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\Shared\\_OtpModal.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\Shared\\_OtpModal.cshtml",
@@ -789,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\Shared\\_Layout.cshtml",
@@ -801,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Verify.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\Register\\Verify.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\Register\\Verify.cshtml",
@@ -813,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "otp.js",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\wwwroot\\assets\\js\\pages\\otp.js",
               "RelativeDocumentMoniker": "WebApp.Auth\\wwwroot\\assets\\js\\pages\\otp.js",
@@ -825,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "forgetPassword.js",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\wwwroot\\assets\\js\\pages\\forgetPassword.js",
               "RelativeDocumentMoniker": "WebApp.Auth\\wwwroot\\assets\\js\\pages\\forgetPassword.js",
@@ -837,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\Register\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\Register\\Index.cshtml",
@@ -849,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Models\\LoginVM.cs",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Models\\LoginVM.cs",
@@ -861,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "register-hr.js",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\wwwroot\\assets\\js\\pages\\register-hr.js",
               "RelativeDocumentMoniker": "WebApp.Auth\\wwwroot\\assets\\js\\pages\\register-hr.js",
@@ -873,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Role.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\Login\\Role.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\Login\\Role.cshtml",
@@ -885,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Password.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\Login\\Password.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\Login\\Password.cshtml",
@@ -897,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\Login\\Index.cshtml",
@@ -909,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\ForgetPassword\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\ForgetPassword\\Index.cshtml",
@@ -921,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ForgetPassword.cshtml",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\WebApp.Auth\\Areas\\HR\\Views\\ForgetPassword\\ForgetPassword.cshtml",
               "RelativeDocumentMoniker": "WebApp.Auth\\Areas\\HR\\Views\\ForgetPassword\\ForgetPassword.cshtml",
@@ -933,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "AttachmentServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Common\\AttachmentServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Common\\AttachmentServices.cs",
@@ -945,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "TranslationServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Common\\TranslationServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Common\\TranslationServices.cs",
@@ -957,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "HRServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\HRServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\HRServices.cs",
@@ -969,7 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "ApiBase.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\ApiBase.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\ApiBase.cs",
@@ -981,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "RoleServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Permission\\RoleServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Permission\\RoleServices.cs",
@@ -993,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "ResourceServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Permission\\ResourceServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Permission\\ResourceServices.cs",
@@ -1005,7 +1018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "FunctionalityServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Permission\\FunctionalityServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Permission\\FunctionalityServices.cs",
@@ -1017,7 +1030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\MappingProfiles\\MappingProfile.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\MappingProfiles\\MappingProfile.cs",
@@ -1029,7 +1042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "AdministratorServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Permission\\AdministratorServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Permission\\AdministratorServices.cs",
@@ -1041,7 +1054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "LookupServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Common\\LookupServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Common\\LookupServices.cs",
@@ -1053,7 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "ApplicationLanguageServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Common\\ApplicationLanguageServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Common\\ApplicationLanguageServices.cs",
@@ -1065,7 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "VerificationServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Authentication\\VerificationServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Authentication\\VerificationServices.cs",
@@ -1077,7 +1090,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Authentication\\UserServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Authentication\\UserServices.cs",
@@ -1089,7 +1102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "RegisterServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Authentication\\RegisterServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Authentication\\RegisterServices.cs",
@@ -1101,7 +1114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "LoginServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Authentication\\LoginServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Authentication\\LoginServices.cs",
@@ -1113,7 +1126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "ForgetPasswordServices.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\ApiHub.Services\\HR\\Authentication\\ForgetPasswordServices.cs",
               "RelativeDocumentMoniker": "ApiHub.Services\\HR\\Authentication\\ForgetPasswordServices.cs",
@@ -1125,7 +1138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Areas\\AuthenticationArea\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "API.Admin\\Areas\\AuthenticationArea\\Controllers\\RegisterController.cs",
@@ -1137,7 +1150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Areas\\AuthenticationArea\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "API.Admin\\Areas\\AuthenticationArea\\Controllers\\LoginController.cs",
@@ -1149,7 +1162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Areas\\AuthenticationArea\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "API.Admin\\Areas\\AuthenticationArea\\Controllers\\UserController.cs",
@@ -1161,7 +1174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "VerificationController.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Areas\\AuthenticationArea\\Controllers\\VerificationController.cs",
               "RelativeDocumentMoniker": "API.Admin\\Areas\\AuthenticationArea\\Controllers\\VerificationController.cs",
@@ -1173,7 +1186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "ExtendControllerBase.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Controllers\\ExtendControllerBase.cs",
               "RelativeDocumentMoniker": "API.Admin\\Controllers\\ExtendControllerBase.cs",
@@ -1185,7 +1198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Areas\\AuthenticationArea\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API.Admin\\Areas\\AuthenticationArea\\Controllers\\AuthController.cs",
@@ -1198,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "SwaggerOperations.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Utilities\\ActionFilters\\SwaggerOperations.cs",
               "RelativeDocumentMoniker": "Utilities\\ActionFilters\\SwaggerOperations.cs",
@@ -1210,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "PermissionRepository.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Repositories\\Repositories\\Modules\\Permission\\PermissionRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Repositories\\Modules\\Permission\\PermissionRepository.cs",
@@ -1222,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "UserRoleDto.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Shared.DTOs\\HR\\PermissionModels\\UserRoleDto.cs",
               "RelativeDocumentMoniker": "Shared.DTOs\\HR\\PermissionModels\\UserRoleDto.cs",
@@ -1234,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "UserPermissionCacheDto.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Shared.DTOs\\HR\\PermissionModels\\UserPermissionCacheDto.cs",
               "RelativeDocumentMoniker": "Shared.DTOs\\HR\\PermissionModels\\UserPermissionCacheDto.cs",
@@ -1246,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "RoleDto.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Shared.DTOs\\HR\\PermissionModels\\RoleDto.cs",
               "RelativeDocumentMoniker": "Shared.DTOs\\HR\\PermissionModels\\RoleDto.cs",
@@ -1258,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "ResourceDto.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Shared.DTOs\\HR\\PermissionModels\\ResourceDto.cs",
               "RelativeDocumentMoniker": "Shared.DTOs\\HR\\PermissionModels\\ResourceDto.cs",
@@ -1270,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "FunctionalityDto.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Shared.DTOs\\HR\\PermissionModels\\FunctionalityDto.cs",
               "RelativeDocumentMoniker": "Shared.DTOs\\HR\\PermissionModels\\FunctionalityDto.cs",
@@ -1282,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "AdministratorDto.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Shared.DTOs\\HR\\PermissionModels\\AdministratorDto.cs",
               "RelativeDocumentMoniker": "Shared.DTOs\\HR\\PermissionModels\\AdministratorDto.cs",
@@ -1294,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\MappingProfileCls\\MappingProfile.cs",
               "RelativeDocumentMoniker": "API.Admin\\MappingProfileCls\\MappingProfile.cs",
@@ -1306,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "Utilities.csproj",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\Utilities\\Utilities.csproj",
               "RelativeDocumentMoniker": "Utilities\\Utilities.csproj",
@@ -1330,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\SEMS-HR.ServiceDefaults\\Extensions.cs",
               "RelativeDocumentMoniker": "SEMS-HR.ServiceDefaults\\Extensions.cs",
@@ -1342,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "LocalizationService.cs",
               "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Localization\\LocalizationService.cs",
               "RelativeDocumentMoniker": "API.Admin\\Localization\\LocalizationService.cs",
@@ -1351,18 +1364,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T19:47:51.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "PipelineExtensions.cs",
-              "DocumentMoniker": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Extensions\\PipelineExtensions.cs",
-              "RelativeDocumentMoniker": "API.Admin\\Extensions\\PipelineExtensions.cs",
-              "ToolTip": "C:\\Work\\GitHub\\SEMS-HR\\API.Admin\\Extensions\\PipelineExtensions.cs",
-              "RelativeToolTip": "API.Admin\\Extensions\\PipelineExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:47:36.961Z"
             },
             {
               "$type": "Document",
